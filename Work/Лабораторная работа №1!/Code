@@ -1,0 +1,18 @@
+97unknxwn ➜ /workspaces/KT1_TOPCHIEV (main) $ mkdir Work
+@97unknxwn ➜ /workspaces/KT1_TOPCHIEV (main) $ cd Work/
+@97unknxwn ➜ /workspaces/KT1_TOPCHIEV/Work (main) $ mkdir "Лабораторная работа №1!"
+@97unknxwn ➜ /workspaces/KT1_TOPCHIEV/Work (main) $ mkdir "ФИО"
+@97unknxwn ➜ /workspaces/KT1_TOPCHIEV/Work (main) $ touch "Text @1" "Text \$2" "Text #3"
+@97unknxwn ➜ /workspaces/KT1_TOPCHIEV/Work (main) $ echo -e "Птица говорун отличается умом и сообразительностью!" > "Text @1"
+@97unknxwn ➜ /workspaces/KT1_TOPCHIEV/Work (main) $ echo -e "Отличается умом, отличается сообразительностью..." >> "Text @1"
+@97unknxwn ➜ /workspaces/KT1_TOPCHIEV/Work (main) $ cat "Text @1" > "Text \$2"
+@97unknxwn ➜ /workspaces/KT1_TOPCHIEV/Work (main) $ mv "Text \$2" "Лабораторная работа №1!"
+@97unknxwn ➜ /workspaces/KT1_TOPCHIEV/Work (main) $ cp "Text @1" "ФИО"
+@97unknxwn ➜ /workspaces/KT1_TOPCHIEV/Work (main) $ head -n 1 "Text @1" >>  "Text #3"
+@97unknxwn ➜ /workspaces/KT1_TOPCHIEV/Work (main) $ echo "Будь осторожен! Преступник вооружен!" >> "Text #3"
+@97unknxwn ➜ /workspaces/KT1_TOPCHIEV/Work (main) $ tac "Text @1" > "ФИО"/Result_one
+@97unknxwn ➜ /workspaces/KT1_TOPCHIEV/Work (main) $ mv "ФИО"/Result_one "ФИО"/Result_two
+@97unknxwn ➜ /workspaces/KT1_TOPCHIEV/Work (main) $ find "ФИО" -maxdepth 1 -type f -name "T*" >> "Лабораторная работа №1!"/Result_3
+@97unknxwn ➜ /workspaces/KT1_TOPCHIEV/Work (main) $ cd Лабораторная\ работа\ №1\!/
+@97unknxwn ➜ /workspaces/KT1_TOPCHIEV/Work/Лабораторная работа №1! (main) $ uname -a >> "Result_3"
+@97unknxwn ➜ /workspaces/KT1_TOPCHIEV/Work/Лабораторная работа №1! (main) $ date >> "Result_3"
